@@ -5,12 +5,12 @@ This project predicts loan approval outcomes using machine learning techniques. 
 
 ## Project Workflow
 1. **Data Collection & Cleaning**
-   - Handled missing values in income, credit history, and loan term columns.
+   - Handled missing values in loan amount, credit history, loan term and other categorical columns.
    - Applied encoding techniques to categorical variables.
    - Standardized numerical features for improved model performance.
 
 2. **Exploratory Data Analysis (EDA)**
-   - Visualized distributions of key variables using **Plotly Express and Matplotlib**.
+   - Visualized distributions of key variables using **Plotly Express**.
    - Identified correlations between features and loan approval status.
    - Removed outliers using **Interquartile Range (IQR) method**.
 
@@ -26,36 +26,9 @@ This project predicts loan approval outcomes using machine learning techniques. 
    - Deploy the model using **Flask or FastAPI** for real-world applications.
 
 ## Technologies Used
-- **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly Express)
+- **Python** (Pandas, NumPy, Scikit-learn, Plotly Express)
 - **Machine Learning** (SVM, Model Evaluation Metrics)
 - **Jupyter Notebook** (Project Development)
-
-## How to Add This Project to GitHub from Jupyter Notebook
-1. **Initialize a Git Repository** (Inside Jupyter Notebook or Terminal):
-   ```bash
-   git init
-   ```
-2. **Add the Project Files**:
-   ```bash
-   git add .
-   ```
-3. **Commit the Changes**:
-   ```bash
-   git commit -m "Initial commit - Loan Approval Prediction"
-   ```
-4. **Create a New GitHub Repository**
-   - Go to [GitHub](https://github.com/) and create a new repository.
-   - Copy the repository URL.
-
-5. **Link Your Local Project to GitHub**:
-   ```bash
-   git remote add origin https://github.com/yourusername/loan-approval-prediction.git
-   ```
-6. **Push the Project to GitHub**:
-   ```bash
-   git branch -M main
-   git push -u origin main
-   ```
 
 ## Results & Findings
 - **High approval prediction accuracy (83%)**, but low rejection recall.
@@ -66,6 +39,5 @@ This project predicts loan approval outcomes using machine learning techniques. 
 - Improve rejection recall through **class balancing techniques**.
 - Deploy model as an **API using Flask/FastAPI**.
 - Optimize feature selection and hyperparameters.
-- Enhance visualization of insights using **advanced Matplotlib and Seaborn plots**.
 
 
