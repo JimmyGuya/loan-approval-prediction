@@ -10,7 +10,7 @@ This project predicts loan approval outcomes using machine learning techniques. 
    - Standardized numerical features for improved model performance.
 
 2. **Exploratory Data Analysis (EDA)**
-   - Visualized distributions of key variables using **Plotly Express**.
+   - Visualized distributions of key variables using **Matplotlib and Seaborn**.
    - Identified correlations between features and loan approval status.
    - Removed outliers using **Interquartile Range (IQR) method**.
 
